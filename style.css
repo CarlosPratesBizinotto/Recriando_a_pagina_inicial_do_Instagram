@@ -1,0 +1,39 @@
+/*Resentar estilos*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243,243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.intagram-wrapper{
+    display: flex; /*vira um flex container, onde todos os elementos que estiverem dentro dele iram ficar em linha*/
+    align-items: center; /*  eixo y */
+    justify-content: start; /* eixo x */
+    width: 60%; /* Tamanho */
+    height: 100vh; /*altura */
+
+}
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img{
+    height: 50rem;
+}
